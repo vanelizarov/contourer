@@ -1,0 +1,42 @@
+.frame-view {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    position: relative;
+
+    &--message {
+        height: 50px;
+        display: block;
+        color: $text-color;
+    }
+
+    &--output-wrapper {
+        position: relative;
+        width: 320px;
+        height: 240px;
+        margin: 10px;
+
+        &:before {
+            content: attr(data-title);
+            display: block;
+            position: absolute;
+            color: white;
+            bottom: 0;
+            right: 0;
+            background: rgba(#757575, 0.8);
+            padding: 7px 12px;
+            @include paper;
+        }
+    }
+
+    &--output {
+        width: 320px;
+        height: 240px;
+        //border: $border-color .3px solid;
+        @include paper;
+
+    }
+
+}
