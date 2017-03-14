@@ -1,6 +1,6 @@
 # Contourer
 
-React and Redux based implemetations of Gaussian blur, Laplace, Sobel, Roberts implementation built with help of ES6 syntax and webpack
+React and Redux based implemetations of Gaussian blur, Laplace, Sobel, Roberts algorithms built with help of ES6 syntax and webpack
 
 ## Installation
 
